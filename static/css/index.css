@@ -1,0 +1,50 @@
+
+nav{
+    background-color: black;
+}
+
+.nav-link{
+    color:white;
+}
+.nav-link:hover{
+    color: black;
+    background-color: rgb(13, 113, 170);
+}
+.navbar{
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.write{
+margin-left: 80px;
+margin-top :100px;
+width: 300px;
+height: 400px;
+
+}
+.write textarea{
+    resize: none;
+    font-size: 20px;
+    border-radius: 8px;
+}
+.card{
+float: right;
+margin-top: 80px;
+margin-right: 60px;
+
+}
+#check{
+    margin-top: 10px;
+    margin-left: 130px;
+}
+#clear{
+    margin-top: 10px;
+}
+#remove {
+    color: red;
+    text-underline-offset: 1px;
+    text-decoration-thickness:px ;
+    text-decoration-color:red ;
+    text-decoration-style: dotted;
+}
