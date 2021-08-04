@@ -16,10 +16,20 @@ nav{
 
 }
 
+.content_container{
+    display: flex;
+}
+
+.display_container{
+    text-align: left;
+    width : 50%;
+    margin-left: 
+}
+
 .write{
 margin-left: 80px;
 margin-top :100px;
-width: 300px;
+width: 45%;
 height: 400px;
 
 }
@@ -28,23 +38,41 @@ height: 400px;
     font-size: 20px;
     border-radius: 8px;
 }
-.card{
-float: right;
-margin-top: 80px;
-margin-right: 60px;
 
+.button-container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
-#check{
-    margin-top: 10px;
-    margin-left: 130px;
+.check{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    line-height: 80px;
+    font-weight: 600;
 }
-#clear{
-    margin-top: 10px;
+    
+.clear{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    line-height: 80px;
+    font-weight: 600;
+    margin-left:10px;
 }
-#remove {
-    color: red;
-    text-underline-offset: 1px;
-    text-decoration-thickness:px ;
-    text-decoration-color:red ;
-    text-decoration-style: dotted;
+.corrections{
+    margin-left: 80px;
+    margin-top :100px;
+    width: 45%;
+    height: 400px;
+}
+.scroll {
+    margin:4px, 4px;
+    padding:4px;
+    width: 500px;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+    font-size: 20px;
 }
